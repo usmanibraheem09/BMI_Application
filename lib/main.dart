@@ -1,6 +1,4 @@
 import 'package:bmi_application/bmi_screen.dart';
-import 'package:bmi_application/details.dart';
-import 'package:bmi_application/hero_anime.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HeroAnime(),
+      home: const BmiScreen(),
     );
   }
 }
